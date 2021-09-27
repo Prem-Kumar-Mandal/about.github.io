@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>help</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <body>
+    <!------------------------------------------------------top bar---------------------------------------------------------->
+    <div class="sticky_bar" >
+       <div class="top_bar" id="links">
+        <i id="clm" class="fas fa-window-close" onclick="closemenu()"></i>
+        <ul>
+          <li class="active"> <a href="index.html">Home</a></li>
+          <li> <a href="about.html">About</a></li>
+          <li> <a href="website_galary.html">Galary</a></li>
+          <li> <a href="#">Help</a></li> 
+        </ul>
+       </div>
+      <i class="fas fa-bars" onclick="showmenu()"></i>
+    </div> 
+    <!------------------------------------------------help------------------->
+    <div class="help-div">
+        <div class="help-container">
+            <h1 id="help-heading">Hello! <br>This is a website about an individual. <br><br><br></h1>
+             <h2 id="help-body">
+                This is a website developed as a personal project. <br>
+                This is not a website for comercial purposes. <br>
+                It is a static website developed using just HTML, CSS and JAVASCRIPT. <br>
+                You can navigate in this website using links on top or bottom. <br>
+                I have also provided my social links in this website. <br>
+                You can follow me if you like. <br><br><br>
+                I have used several styling techniques in this website. <br>
+                Hover, border, boxshadow, various font styles and colors are <br>
+                some of them. <br>
+                This is a static website to avoid any type of hosting fee because this is <br>
+                just a personal project with no business aspects attached to it.
+
+             </h2>
+        </div>
+    </div>
+    <!-----------------------------------------------footer----------------->
+<footer class="help-footer">
+    <div class="container">
+       <div class="row">
+          <div class="footer-col">
+             <h4>Quick Links</h4>
+             <ul>
+                <li id="aboutme"><a href="about.html">about me</a></li>
+             </ul>
+          </div>
+          <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+                <li id="help"><a href="#">help</a></li>
+             </ul>
+          </div>
+          <div class="footer-col">
+             <h4>pictures</h4>
+             <ul>
+                <li id="pictures"><a href="website_galary.html">galary</a></li>
+             </ul>
+          </div>
+          <div class="footer-col">
+             <h4>follow me</h4>
+             <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100007262051713"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/PremKum67250916"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/p_r_e_m__k.r/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/prem-kumar-mandal-9464b0221/"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+          </div>
+          <span class="copyright">&copy;Property of Prem Kumar Mandal</span>
+       </div>
+    </div>
+ </footer>
+ <!---------------------js for small menu---------------->
+ <script>
+ var navlinks=document.getElementById("links");
+   function showmenu(){
+     navlinks.style.right="0";
+    }
+    function closemenu(){
+     navlinks.style.right="-200px";
+    }
+ </script>
+    </body>
+</html>

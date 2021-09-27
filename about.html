@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>about</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <body>
+    <!------------------------------------------------------top bar---------------------------------------------------------->
+    <div class="sticky_bar" >
+        <div class="top_bar" id="links">
+          <i id="clm" class="fas fa-window-close" onclick="closemenu()"></i>
+           <ul>
+             <li class="active"> <a href="index.html">Home</a></li>
+             <li> <a href="#">About</a></li>
+             <li> <a href="website_galary.html">Galary</a></li>
+             <li> <a href="help.html">Help</a></li> 
+           </ul>
+         </div>
+       <i class="fas fa-bars" onclick="showmenu()"></i>
+    </div> 
+    <!-------------------------------------------------------about------------------------>
+    <div class="about-div">
+        <h1>About Me</h1>
+        <div class="about-container">
+             <h3 class="heading">
+                 Nursery Schooling <br>
+             </h3>    
+             <h4 class="para">
+                I completed my nursery schooling from St.Michael's Kids School,Ranchi. <br>
+                I had a great experience there. It was the beginning of my student life. <br>
+                Made a lot of new friends, some of them are still good friends of mine. <br>
+             </h4>
+        </div>
+        <div class="about-container">
+             <h3 class="heading">Secondary Schooling <br></h3>
+             <h4 class="para">
+                I completed my Secondary schooling from St.Michael's School,Jajput,Ranchi. <br>
+                I was chosen as headboy. I enjoyed the resposibilities that came with it. <br>
+                But I declined the headboy position in class 'X' because headboy had to be <br>
+                doing a lot of things while classes were going on at the same time.This would <br>
+                affect my studies a lot.So I chose to not accept the post and focus on my studies. <br>
+                And it paid off! I got direct 10 CGPA. 
+             </h4>
+        </div>
+        <div class="about-container">
+             <h3 class="heading">Senior Secondary Schooling</h3>
+             <h4 class="para">
+                I completed my Senior Secondary schooling from DAV.Public School,Hehal,Ranchi. <br>
+                It was a comparatively short journey of 2 years in PCM branch. But it was a great experience <br>
+                any way.The syllabus was very different and difficult than what I was used to. <br>
+                Not to lie, I struggled in the beginning but soon got used to and started performing. <br>
+                I was also chosen a the class monitor.
+             </h4>
+        </div>
+        <div class="about-container">
+             <h3 class="heading">College</h3>
+             <h4 class="para">
+                 I did got my Bachelor's degree in Computer Applications from Marwari College,Ranchi. <br>
+                 It was wonderful journey and I got to learn about computers in depth including <br>
+                 advanced and complex topics like AI & ML. I also made some projects and this website <br>
+                 is infact a project itself. The love for technology keeps growing as I keep on <br>
+                 learning new things.
+             </h4>
+        </div>
+    </div>  
+    <!-----------------------------------------------footer----------------->
+<footer class="about-footer">
+    <div class="container">
+       <div class="row">
+          <div class="footer-col">
+             <h4>Quick Links</h4>
+             <ul>
+                <li id="aboutme"><a href="#">about me</a></li>
+             </ul>
+          </div>
+          <div class="footer-col">
+             <h4>get help</h4>
+             <ul>
+                <li id="help"><a href="help.html">help</a></li>
+             </ul>
+          </div>
+          <div class="footer-col">
+             <h4>pictures</h4>
+             <ul>
+                <li id="pictures"><a href="website_galary.html">galary</a></li>
+             </ul>
+          </div>
+          <div class="footer-col">
+             <h4>follow me</h4>
+             <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100007262051713"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/PremKum67250916"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/p_r_e_m__k.r/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/prem-kumar-mandal-9464b0221/"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+          </div>
+          <span class="copyright">&copy;Property of Prem Kumar Mandal</span>
+       </div>
+    </div>
+ </footer>
+ <!---------------------js for small menu---------------->
+ <script>
+ var navlinks=document.getElementById("links");
+   function showmenu(){
+     navlinks.style.right="0";
+    }
+    function closemenu(){
+     navlinks.style.right="-200px";
+    }
+ </script>
+    </body>
+</html>
