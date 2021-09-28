@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 body
 {background-color: rgb(167, 225, 248);
 margin:0;
@@ -8,7 +11,7 @@ font-family: 'Courier New', Courier, monospace;
 /* --------------------------------------------------------------- top bar options---------------------------------------------------*/
 .sticky_bar{
     position:fixed;
-    top:0cm;
+    top:0rem;
     width: 100%;
     z-index: 5;
     flex: 1;
@@ -18,8 +21,8 @@ font-family: 'Courier New', Courier, monospace;
 }
 ul
 {float:right;
-margin-top:12px;
-font-size:18px;
+margin-top:1.2rem;
+font-size:1.8rem;
 }
 ul li
 {display:inline-block;
@@ -27,9 +30,9 @@ ul li
 ul li a
 {text-decoration: none;
 color: #fff;
-padding:5px 20px;
-border: 1px solid transparent;
-border-radius:10px;
+padding:.5rem 2.0rem;
+border: .1rem solid transparent;
+border-radius:1.0rem;
 transition:0.5s ease;
 }
 ul li a:hover
@@ -42,136 +45,141 @@ color:rgb(17, 2, 2);
 }
 .top_bar{
     background: black;
-    height: 50px;
-    margin-top: 0%;
+    height: 5.0rem;
+    margin-top: 0rem;
 }
-@media (max-width:576px){
-   .top_bar ul li{
-       display: block;
-   }
-   .top_bar{
-       position:absolute;
-       top:0;
-       right:-200px;
-       height:100vh;
-       width:200px;
-       background: #0a0101;
-       text-align:left;
-       line-height:1cm;
-       z-index: 5;
-       transition:500ms;
-   }
-   .sticky_bar .fas{
-       display: block;
-       color: red;
-       margin: 10px;
-       font-size: 20px;
-       cursor:pointer;
-   }
-   .fas{
-       position: absolute;
-       right:0;
-   }
-   #clm{
-       position:absolute;
-       right:150px;
-   }
+@media (max-width:998px){
+     html{
+         font-size:55%;
+     }
+}
+@media(max-width:285px){
+    html{
+        font-size: 45%;
+    }
+    .top_bar ul li{
+        display: block;
+    }
+    .top_bar{
+        position:absolute;
+        top:0rem;
+        right:-20.0rem;
+        height:100vh;
+        width:20.0rem;
+        background: #0a0101;
+        text-align:left;
+        line-height:5rem;
+        z-index: 5;
+        transition:500ms;
+    }
+    .sticky_bar .fas{
+        display: block;
+        color: red;
+        margin: 1.0rem;
+        font-size: 2.0rem;
+        cursor:pointer;
+    }
+    .fas{
+        position: absolute;
+        right:0;
+    }
+    #clm{
+        position:absolute;
+        right:15.0rem;
+    }
 }
 
 /*-------------------------------------------------------------top div tag---------------------------------------------------------*/
 
 .top_div{
     position:absolute;
-    top:40px;
-    width:32cm;
-    border-radius:20px;
+    top:6rem;
+    right:3rem;
+    width:130rem;
+    border-radius:2.0rem;
     background-color: rgb(80, 201, 248);
-    margin-left: 2cm;
-    margin-right: 2cm;
-    height:10cm;
-    margin-top: 1cm;
-    box-shadow: 10px 10px grey;
+    height:40rem;
+    margin-top: 1rem;
+
+    box-shadow: 1.0rem 1.0rem grey;
 }
 .top_div_text{
     position: relative;
-    padding-top: 10px;
-    margin-left: 1cm;
+    padding-top: 1.0rem;
+    margin-left: 5rem;
     float:left;
-    transition:800ms;
+    font-size: 2rem;
 }
 .top_div_text:hover{
    position:absolute;
-   left: 10px;
+   left: 1.0rem;
 }
 #img1{
-    border-radius:10px;
+    border-radius:1.0rem;
 }
 .top_div_image{
-    border: 5px solid black;
-    border-radius:14px;
+    border: .5rem solid black;
+    border-radius:1.4rem;
     position: relative;
     float:right;
-    margin-right:2cm;
-    margin-top:10mm;
-    margin-bottom:0.5cm;
-    height: 66mm;
+    margin-right:5rem;
+    margin-top:5rem;
+    margin-bottom:0.5rem;
+    height: 25rem;
     transition: 800ms;
 }
 .top_div_image:hover{
     opacity: 0.7;
-   position:absolute;
-   right: 10px;
 }
-@media (max-width:767px){
-    .top_div{
-        position: relative;
-       width:15cm;
-       left:0;
+@media (max-width:998px){
+    html{
+    font-size: 55%;
     }
     .top_div_image{
         position:absolute;
-        top:5mm;
-        right:5mm;
-        width:40mm;
-        height:40mm;
-        margin-right:1cm;
+        right:1rem;
+        height:28.4rem;
     }
-    #img1{
-        width:40mm;
-        height:40mm;
-    }  
-}
-@media(max-width: 574px){
+    .top_div_image:hover{
+        opacity: 0.7;
+    }
     .top_div{
         position:relative;
-        top:0cm;
-        left:-1.9cm;
-        width:7cm;
-        height:14cm;
-        box-shadow: 5px 5px grey;
+        left: 1rem;
+        right: 2rem;
+        max-width: 109rem;
+    }
+}
+@media(max-width: 285px){
+    .top_div{
+        position:relative;
+        top:2.2rem;
+        left:0rem;
+        width:100%;
+        height:80rem;
+        box-shadow: .5rem .5rem grey;
     }
     .top_div_image{
+        border:none;
         position:absolute;
-        top:8.2cm;
-        right:5mm;
-        width:40mm;
-        height:40mm;       
+        top:40rem;
+        margin-right: auto;
+        margin-left: auto;
+        width:100%;
+        height:5rem;       
     }
 }
 /*--------------------------------------------------------animation--------------------------------------------------------*/
 #animation_div{
-    border:1px solid black;
-    border-radius:10px;
-    box-shadow: 5px 5px grey;
+    border:.1rem solid black;
+    border-radius:1.0rem;
+    box-shadow: .5rem .5rem grey;
     position:absolute;
-    right:2.5cm;
-    top:15cm;
-    bottom:1cm;
-    margin-bottom: 2cm;
-    width:480px;
-    height:480px;
-    border:3px solid black;
-    max-height:8.4cm;
+    right:10rem;
+    top:57rem;
+    width:48rem;
+    height:32rem;
+    border:.3rem solid black;
     animation: slide 10s infinite;
     background: url(images/pexels-olha-ruskykh-7504837.jpg);
 }
@@ -192,27 +200,28 @@ color:rgb(17, 2, 2);
         background: url(images/pexels-olia-danilevich-4974914.jpg);
     }
 }
-@media (max-width:767px){
+@media (max-width:998px){
+    html{
+        font-size: 55%;
+    }
     #animation_div{
         position:absolute;
-        right:4cm;
-        top:14cm;
-        bottom:1cm;
-        margin-bottom: 2cm;
-        width:480px;
-        height:480px;
+        right:2rem;
+        top:55rem;
+        width:40rem;
+        height:30rem;
     }
 }
-@media (max-width:574px){
+@media (max-width:285px){
     #animation_div{
         position:absolute;
-        right:0.6cm;
-        left:1mm;
-        top:16.5cm;
-        bottom:1cm;
-        margin-bottom: 2cm;
-        width:250px;
-        height:350px;
+        right:0.6rem;
+        left:.1rem;
+        top:88rem;
+        bottom:1rem;
+        margin-bottom: 2rem;
+        width:100%;
+        height:35rem;
     }
 }
 /* ------------------------------------------------------school & college------------------------------------------------------ */
