@@ -227,39 +227,35 @@ color:rgb(17, 2, 2);
 /* ------------------------------------------------------school & college------------------------------------------------------ */
 #school_heading{
     position:absolute;
-    top:13cm;
-    left:5cm;
-    font-size:34px;
+    top:50rem;
+    right:80rem;
+    font-size:3.4rem;
 }
 #school_container{
-    border: 1px solid black;
-    width: 600px;
-    height: 500px;
+    border: .1rem solid black;
+    width: 60rem;
+    height: 50rem;
     position: absolute;
-    top:15cm;
-    left:3cm;
+    top:57rem;
+    right:63rem;
     background-color: rgba(96, 206, 250, 0.486);
-    border-radius: 20px;
-    box-shadow: 5px 5px grey;
+    border-radius: 2rem;
+    box-shadow: .5rem .5rem grey;
 }
 .school_div{
-    border: 3px solid black;
-    border-radius: 10px;
-    width:240px;
-    height:160px;
+    border: .3rem solid black;
+    border-radius: 1.3rem;
+    width:24rem;
+    height:16rem;
     position: relative;
-    top:0.3cm;
-    left:12mm;
+    top:2rem;
+    left:2rem;
     display: inline-block;
     text-align: center;
-    margin: auto;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    line-height: 1cm;
-    text-align: match-parent;
-    font-size: 24px;
+    line-height: 2rem;
+    font-size: 2.4rem;
     vertical-align: top;  
+    margin-right: 5rem;
 }
 .school_div:hover{
     opacity: 0.7;
@@ -267,62 +263,89 @@ color:rgb(17, 2, 2);
 .caption{
     display:block;
     position:inherit;
-    top:-1cm;
+    top:-1rem;
 }
 #marwari{
     position: relative;
-    top:90px;
-    left:170px;
+    top:9rem;
+    left:17rem;
 }
 .image-radius{
-    border-radius: 10px;
+    border-radius: 1rem;
 }
-@media (max-width:767px){
-    #school_heading{
-        position:absolute;
-        top:23cm;
-        left:5cm;
-        font-size:34px;
+@media (max-width:998px){
+    html{
+        font-size: 55%;
     }
     #school_container{
-        position: absolute;
-        top:25cm;
-        left:2cm;
+        position:relative;
+        top:14rem;
+        left:2rem;
+        width: 65rem;
+        height: 55rem;
     }
-}
-@media (max-width:576px){
     #school_heading{
         position:absolute;
-        top:25cm;
-        left:1.5cm;
-        font-size:34px;
-    }
-    #school_container{
-        position: absolute;
-        top:28cm;
-        left:0.1cm;
-        width: 275px;
-        height: 800px;
+        top:48rem;
+        right:60rem;
+        font-size:3.4rem;
     }
     .school_div{
+        border: .5rem solid black;
+        border-radius: 1.3rem;
+        width:27.3rem;
+        height:18.1rem;
         position: relative;
-        top:0.3cm;
-        left:4mm;
+        top:2rem;
+        left:2.1rem;
+        display: inline-block;
+        text-align: center;
+        line-height: 2rem;
+        font-size: 2.4rem;
+        vertical-align: top;  
+        margin-right: 2rem;
+    }
+    .caption{
+        display:block;
+        position:inherit;
+        top:-1.5rem;
+    }
+}
+@media (max-width:285px){
+    #school_heading{
+        position:absolute;
+        top:128rem;
+        left:1.5rem;
+        font-size:3.4rem;
+    }
+    #school_container{
+        position: absolute;
+        top:138rem;
+        left:0.1rem;
+        width: 100%;
+        height: 85rem;
+    }
+    .school_div{
+        border:0.5rem solid black;
+        border-radius: 1rem;
+        position: relative;
+        top:0.5rem;
+        left:.4rem;
     }
     #marwari{
         position: relative;
-        top:200px;
-        left:13px;
+        top:20rem;
+        left:1.3rem;
     }
     #dav{
         position: relative;
-        top:110px;
-        left:13px; 
+        top:11rem;
+        left:1.3rem; 
     }
 }
 /* -------------------------------------footer--------------------------- */
 .container{
-	max-width: 1170px;
+	max-width: 117.0rem;
 	margin-left:0;
 }
 .row{
@@ -334,39 +357,39 @@ ul{
 }
 .footer{
     position:absolute;
-    top:30cm;
+    top:110rem;
     width:100%;
 	background-color: #24262b;
-    padding: 70px 0;
+    padding: 7rem 0;
 }
 .footer-col{
    width: 22%;
-   padding: 0 15px;
+   padding: 0 1.6rem;
 }
 .footer-col h4{
-	font-size: 18px;
+	font-size: 1.8rem;
 	color: #ffffff;
 	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin-bottom: 3.5rem;
 	font-weight: 500;
 	position: relative;
-    left:15mm;
+    left:1.5rem;
 }
 .footer-col h4::before{
 	content: '';
 	position: absolute;
 	left:0;
-	bottom: -10px;
+	bottom: -1rem;
 	background-color: #e91e63;
-	height: 2px;
+	height: .2rem;
 	box-sizing: border-box;
-	width: 50px;
+	width: 5rem;
 }
 .footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 }
 .footer-col ul li a{
-	font-size: 16px;
+	font-size: 1.6rem;
 	text-transform: capitalize;
 	color: #ffffff;
 	text-decoration: none;
@@ -377,21 +400,21 @@ ul{
 }
 .footer-col ul li a:hover{
 	color: #ffffff;
-	padding-left: 8px;
+	padding-left: .8rem;
 }
 .footer-col .social-links a{
 	display: inline-block;
-	height: 40px;
-	width: 40px;
+	height: 4rem;
+	width: 4rem;
 	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
+	margin:0 1rem 1rem 0;
 	text-align: center;
-	line-height: 40px;
+	line-height: 4rem;
 	border-radius: 50%;
 	color: #ffffff;
 	transition:300ms;
     position: relative;
-    left:14mm;
+    left:1.4rem;
 }
 .footer-col .social-links a:hover{
 	color: #24262b;
@@ -399,58 +422,81 @@ ul{
 }
 .copyright{
     position: absolute;
-    left:14cm;
-    bottom:0cm;
+    right:0rem;
+    bottom:0rem;
     color: red;
     font-size: large;
 }
 #help{
     position:absolute;
-    left:9cm;
+    left:30rem;
 }
 #pictures{
     position:absolute;
-    left:16.5cm;
+    left:59rem;
 }
 #aboutme{
     position:absolute;
-    left:1.4cm;
+    left:1.4rem;
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
+@media(max-width: 998px){
+    .footer-col{
+        width: 100%;
     }
     .footer{
         position:absolute;
-        top:40cm;
+        top:120rem;
+        padding: 7rem 0;
     }
+    .footer-col{
+        width: 22%;
+        padding: 0 1.6rem;
+     }
     #help{
         position:absolute;
-        left:2cm;
+        left:2rem;
     }
     #pictures{
         position:absolute;
-        left:2cm;
+        left:2rem;
+    }
+    .copyright{
+        position: absolute;
+        right:0rem;
+        bottom:0rem;
+        color: red;
+        font-size: large;
+    }
+    #help{
+        position:absolute;
+        left:29rem;
+    }
+    #pictures{
+        position:absolute;
+        left:57rem;
+    }
+    #aboutme{
+        position:absolute;
+        left:1.4rem;
     }
 }
-@media(max-width: 574px){
+@media(max-width: 285px){
   .footer-col{
     width: 100%;
    }
    .footer{
     position:absolute;
-    top:50cm;
+    top:230rem;
    }
    #help{
     position:absolute;
-    left:1.5cm;
+    left:1.5rem;
    }
    #pictures{
     position:absolute;
-    left:1.5cm;
+    left:1.5rem;
    }
 }
 /* ---------------------------------------------------------------------------------- */
