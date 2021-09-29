@@ -733,67 +733,68 @@ ul{
 /* ------------------------------------------------------------------------------------------------ */
 .help-div{
     position:absolute;
-    top:2cm;
-    left:1cm;
-    right:1cm;
+    top:8rem;
+    left:1rem;
+    right:1rem;
     background-color: rgb(21, 4, 248);
-    border:2px solid black;
-    border-radius:10px;
-    padding:1cm;
+    border:.2rem solid black;
+    border-radius:1.0rem;
+    padding:1rem;
 }
 .help-container{
     position:relative;
-    padding:1cm;
+    padding:1rem;
     background-color: rgb(14, 107, 247);
-    border:2px solid black;
-    border-radius: 10px;
+    border:.2rem solid black;
+    border-radius: 1.0rem;
 }
 #help-heading{
-   font-size: 30px;
+   font-size: 3.0rem;
    color: black;
 }
 #help-heading:hover{
     position: relative;
-    left:1mm;
+    left:.1rem;
 }
 #help-body{
-   font-size: 20px;
+   font-size: 2.0rem;
    color:rgb(56, 54, 54);
 }
 #help-body:hover{
     position: relative;
-    left:1mm;
+    left:.1rem;
 }
 .help-footer{
     position:relative;
-    top:20cm;
+    margin-top:100%;
     background-color:#24262b ;
-    height: 7cm;
+    padding: 7rem 0;
 }
-@media(max-width:574px){
+@media(max-width:998px){
     .help-div{
         position:absolute;
-        left:1mm;
-        top:10mm;
-        right:1mm;
-        padding:2mm;
+        left:1rem;
+        top:8rem;
+        right:1rem;
+        padding:2rem;
     }
     .help-container{
         position: relative;
-        padding:1mm;
+        padding:5rem;
     }
     #help-heading{
-        font-size: 20px;
+        font-size: 4rem;
         color: black;
     }
     #help-body{
-        font-size: 15px;
+        font-size: 3rem;
         color:rgb(56, 54, 54);
     }
     .help-footer{
-        position:relative;
-        top:23.5cm;
+        position:absolute;
+        margin-top:150%;
         background-color:#24262b ;
-        height: 18cm;
+        padding: 7rem 0;
+        width: 100%;
     }
 }
