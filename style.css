@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+    height:100%;	
 }
 body
 {background-color: rgb(167, 225, 248);
@@ -357,7 +358,7 @@ ul{
 }
 .footer{
     position:absolute;
-    top:110rem;
+    margin-top:100%;
     width:100%;
 	background-color: #24262b;
     padding: 7rem 0;
@@ -447,7 +448,7 @@ ul{
     }
     .footer{
         position:absolute;
-        top:120rem;
+        margin-top:100%;
         padding: 7rem 0;
     }
     .footer-col{
