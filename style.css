@@ -49,10 +49,20 @@ color:rgb(17, 2, 2);
     height: 5.0rem;
     margin-top: 0rem;
 }
-@media (max-width:998px){
-     html{
-         font-size:55%;
-     }
+@media(max-width:998px){
+    html{
+        font-size: 62.5%;
+    }
+    .top_bar{
+        height:10rem;
+    }
+    .top_bar ul{
+        margin-top:2rem;
+        font-size: 5rem;
+    }
+    .top_bar ul li{
+        display: inline-block;
+    }
 }
 @media(max-width:285px){
     html{
@@ -774,27 +784,33 @@ ul{
     .help-div{
         position:absolute;
         left:1rem;
-        top:8rem;
+        top:12rem;
         right:1rem;
         padding:2rem;
     }
     .help-container{
         position: relative;
-        padding:5rem;
+        padding:8rem;
     }
     #help-heading{
-        font-size: 4rem;
+        font-size: 12rem;
         color: black;
     }
     #help-body{
-        font-size: 3rem;
+        font-size: 8rem;
         color:rgb(56, 54, 54);
     }
     .help-footer{
         position:absolute;
-        margin-top:150%;
+        margin-top:500%;
         background-color:#24262b ;
         padding: 7rem 0;
         width: 100%;
+    }
+    .footer-col h4{
+        font-size: 4rem;
+    }
+    .footer-col ul li a{
+        font-size: 3rem;
     }
 }
