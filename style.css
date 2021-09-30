@@ -601,22 +601,23 @@ ul{
         height:100%;
     }
     #galary-heading{
-        font-size: 1.5rem;
+        font-size: 4rem;
         position: absolute;
-        top:0.2rem;
+        top:5rem;
         left:0rem;
     }
     #galary-footer{
         position: absolute;
-         margin-top: 130%;
+         margin-top: 200%;
          background-color: #24262b;
          width:100%;
          padding: 7rem 0;
     }
     .galary-container{
+        top:30rem;
         left:0.1rem;
         width: 100rem;
-        height:120rem;
+        height:140rem;
     }
     .galary-images{
         width:35rem;
@@ -624,6 +625,7 @@ ul{
         position: relative;
         left:5rem;
         top:1rem;
+        margin-bottom: 8rem;
     }
     .image-curve{
         width:35rem;
@@ -637,7 +639,8 @@ ul{
         height:6rem;
         position: relative;
         left:55rem;
-        top:-87rem;
+        top:-105rem;
+        margin-bottom:8rem;
     }
     #secondlast{
         height:6rem;
