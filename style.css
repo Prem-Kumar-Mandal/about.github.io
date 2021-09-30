@@ -142,23 +142,29 @@ color:rgb(17, 2, 2);
 .top_div_image:hover{
     opacity: 0.7;
 }
-@media (max-width:998px){
-    html{
-    font-size: 55%;
+@media(max-width: 998px){
+    .top_div{
+        position:relative;
+        top:15rem;
+        left:6rem;
+        width:90%;
+        height:110rem;
+        box-shadow: .5rem .5rem grey;
+    }
+    .top_div_text{
+        font-size: 3rem;
+    }
+    #img1{
+        height: 45rem;
+        width: 50rem;
     }
     .top_div_image{
         position:absolute;
-        right:1rem;
-        height:28.4rem;
-    }
-    .top_div_image:hover{
-        opacity: 0.7;
-    }
-    .top_div{
-        position:relative;
-        left: 1rem;
-        right: 2rem;
-        max-width: 109rem;
+        top:50rem;
+        left:20rem;
+        margin-right:0rem;
+        width:50rem;
+        height:45rem;       
     }
 }
 @media(max-width: 285px){
@@ -212,15 +218,15 @@ color:rgb(17, 2, 2);
     }
 }
 @media (max-width:998px){
-    html{
-        font-size: 55%;
-    }
     #animation_div{
         position:absolute;
-        right:2rem;
-        top:55rem;
-        width:40rem;
-        height:30rem;
+        right:0.6rem;
+        left:25rem;
+        top:130rem;
+        bottom:1rem;
+        margin-bottom: 2rem;
+        width:48%;
+        height:32rem;
     }
 }
 @media (max-width:285px){
@@ -285,41 +291,40 @@ color:rgb(17, 2, 2);
     border-radius: 1rem;
 }
 @media (max-width:998px){
-    html{
-        font-size: 55%;
-    }
-    #school_container{
-        position:relative;
-        top:14rem;
-        left:2rem;
-        width: 65rem;
-        height: 55rem;
-    }
     #school_heading{
         position:absolute;
-        top:48rem;
-        right:60rem;
-        font-size:3.4rem;
+        top:168rem;
+        left:8rem;
+        font-size:4rem;
+    }
+    #school_container{
+        position: absolute;
+        top:180rem;
+        left:8rem;
+        width: 80rem;
+        height: 95rem;
     }
     .school_div{
-        border: .5rem solid black;
-        border-radius: 1.3rem;
-        width:27.3rem;
-        height:18.1rem;
+        border:0.5rem solid black;
+        border-radius: 1rem;
         position: relative;
-        top:2rem;
-        left:2.1rem;
-        display: inline-block;
-        text-align: center;
-        line-height: 2rem;
-        font-size: 2.4rem;
-        vertical-align: top;  
-        margin-right: 2rem;
+        top:0.5rem;
+        left:3rem;
+        height:25rem;
+        width:30rem;
     }
-    .caption{
-        display:block;
-        position:inherit;
-        top:-1.5rem;
+    .image-radius{
+        width:30rem;
+    }
+    #marwari{
+        position: relative;
+        top:40rem;
+        left:45rem;
+    }
+    #dav{
+        position: relative;
+        top:33rem;
+        left:-15rem; 
     }
 }
 @media (max-width:285px){
@@ -458,7 +463,7 @@ ul{
     }
     .footer{
         position:absolute;
-        margin-top:100%;
+        margin-top:180%;
         padding: 7rem 0;
     }
     .footer-col{
