@@ -812,15 +812,21 @@ ul{
     }
     .help-footer{
         position:absolute;
-        margin-top:500%;
+        margin-top:600rem;
         background-color:#24262b ;
         padding: 7rem 0;
         width: 100%;
     }
-    .footer-col h4{
-        font-size: 4rem;
+    .footer-col{
+        padding:0rem;
     }
-    .footer-col ul li a{
-        font-size: 3rem;
+    #help{
+        left:22.5rem;
+    }
+    #aboutme{
+        left:0rem;
+    }
+    #pictures{
+        left:46rem;
     }
 }
