@@ -221,7 +221,7 @@ color:rgb(17, 2, 2);
     #animation_div{
         position:absolute;
         right:0.6rem;
-        left:26rem;
+        left:27rem;
         top:130rem;
         bottom:1rem;
         margin-bottom: 2rem;
@@ -803,11 +803,11 @@ ul{
         padding:8rem;
     }
     #help-heading{
-        font-size: 12rem;
+        font-size: 10rem;
         color: black;
     }
     #help-body{
-        font-size: 8rem;
+        font-size: 7rem;
         color:rgb(56, 54, 54);
     }
     .help-footer{
