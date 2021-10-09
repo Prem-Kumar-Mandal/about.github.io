@@ -193,10 +193,10 @@ color:rgb(17, 2, 2);
     border-radius:1.0rem;
     box-shadow: .5rem .5rem grey;
     position:absolute;
-    right:10rem;
+    right:5rem;
     top:57rem;
-    width:48rem;
-    height:32rem;
+    width:35rem;
+    height:25rem;
     border:.3rem solid black;
     animation: slide 10s infinite;
     background: url(images/pexels-olha-ruskykh-7504837.jpg);
@@ -245,8 +245,8 @@ color:rgb(17, 2, 2);
 /* ------------------------------------------------------school & college------------------------------------------------------ */
 #school_heading{
     position:absolute;
-    top:50rem;
-    right:80rem;
+    top:48rem;
+    right:65rem;
     font-size:3.4rem;
 }
 #school_container{
@@ -255,7 +255,7 @@ color:rgb(17, 2, 2);
     height: 50rem;
     position: absolute;
     top:57rem;
-    right:63rem;
+    right:43rem;
     background-color: rgba(96, 206, 250, 0.486);
     border-radius: 2rem;
     box-shadow: .5rem .5rem grey;
@@ -264,7 +264,7 @@ color:rgb(17, 2, 2);
     border: .3rem solid black;
     border-radius: 1.3rem;
     width:24rem;
-    height:16rem;
+    height:20rem;
     position: relative;
     top:2rem;
     left:2rem;
@@ -285,10 +285,11 @@ color:rgb(17, 2, 2);
 }
 #marwari{
     position: relative;
-    top:9rem;
+    top:8rem;
     left:17rem;
 }
 .image-radius{
+    width:24rem;
     border-radius: 1rem;
 }
 @media (max-width:998px){
