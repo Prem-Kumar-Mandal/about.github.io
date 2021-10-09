@@ -544,11 +544,11 @@ ul{
     left:2rem;
     right:2rem;
     border:.2rem solid black;
-    height: 170rem;
+    height: 130rem;
 }
 .galary-images{
-    width: 42rem;
-    height: 32rem;
+    width: 34rem;
+    height: 26rem;
     display: block;
     margin-bottom: 2rem;
     border:.2rem solid rgb(12, 4, 1);
@@ -567,19 +567,19 @@ ul{
     opacity: 0.6;
 }
 .galary-images1{
-    width: 11.5rem;
+    width: 3rem;
     height: 9rem;
     display: block;
     border:.2rem solid rgb(17, 6, 1);
     border-radius: .2rem;
     position: relative; 
-    top:-105rem;
+    top:-87rem;
     right:-50rem; 
-    left:80rem;
+    left:63rem;
     padding-right: 31.5rem;
     padding-top: 1rem; 
     padding-left:1rem;
-    padding-bottom:20rem;
+    padding-bottom:14rem;
     margin-bottom: 2rem;
     background-color: rgba(11, 27, 247, 0.856);
     transition:800ms;
@@ -588,7 +588,7 @@ ul{
     opacity: 0.6;
 }
 #last{
-    height:30rem;
+    height:26rem;
 }
 #secondlast{
     height:12.5rem;
