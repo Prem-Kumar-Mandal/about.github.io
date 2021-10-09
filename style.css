@@ -106,7 +106,8 @@ color:rgb(17, 2, 2);
     position:absolute;
     top:6rem;
     right:3rem;
-    width:130rem;
+    left:2rem;
+    width:104rem;
     border-radius:2.0rem;
     background-color: rgb(80, 201, 248);
     height:40rem;
@@ -136,7 +137,7 @@ color:rgb(17, 2, 2);
     margin-right:5rem;
     margin-top:5rem;
     margin-bottom:0.5rem;
-    height: 25rem;
+    height: 19.9rem;
     transition: 800ms;
 }
 .top_div_image:hover{
