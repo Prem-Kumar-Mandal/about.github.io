@@ -156,16 +156,10 @@ color:rgb(17, 2, 2);
         font-size: 3rem;
     }
     #img1{
-        height: 45rem;
-        width: 50rem;
+       display:none;
     }
     .top_div_image{
-        position:absolute;
-        top:57rem;
-        left:20rem;
-        margin-right:0rem;
-        width:50rem;
-        height:45rem;       
+       display:none;      
     }
 }
 @media(max-width: 285px){
