@@ -10,18 +10,18 @@
 
     <body>
     <!------------------------------------------------------top bar---------------------------------------------------------->
-    <div class="sticky_bar" >
-        <div class="top_bar" id="links">
-          <i id="clm" class="fas fa-window-close" onclick="closemenu()"></i>
-           <ul>
-             <li class="active"> <a href="index.html">Home</a></li>
-             <li> <a href="#">About</a></li>
-             <li> <a href="website_galary.html">Galary</a></li>
-             <li> <a href="help.html">Help</a></li> 
-           </ul>
-         </div>
-       <i class="fas fa-bars" onclick="showmenu()"></i>
-    </div> 
+    <div class="sticky_bar">
+      <div class="top_bar" id="links">
+         <i id="clm" class="fas fa-window-close" onclick="closemenu()"></i>
+         <ul>
+            <li class="active"> <a href="index.html">Home</a></li>
+            <li> <a href="about.html">About</a></li>
+            <li> <a href="website_galary.html">Galary</a></li>
+            <li> <a href="help.html">Help</a></li>
+         </ul>
+      </div>
+      <i id="small-menu" class="fas fa-bars" onclick="showmenu()"></i>
+   </div>
     <!-------------------------------------------------------about------------------------>
     <div class="about-div">
         <h1>About Me</h1>
@@ -103,14 +103,14 @@
     </div>
  </footer>
  <!---------------------js for small menu---------------->
- <script>
- var navlinks=document.getElementById("links");
-   function showmenu(){
-     navlinks.style.right="0";
-    }
-    function closemenu(){
-     navlinks.style.right="-200px";
-    }
- </script>
+<script>
+      var navlinks = document.getElementById("links");
+      function showmenu() {
+         navlinks.style.right = "0px";
+      }
+      function closemenu() {
+         navlinks.style.right = "-230px";
+      }
+   </script>
     </body>
 </html>
