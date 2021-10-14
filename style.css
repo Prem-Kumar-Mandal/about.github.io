@@ -203,6 +203,12 @@ color:rgb(17, 2, 2);
         right:-3rem;
     }
 }
+@media only screen and (min-width:1025px) and (max-width:1440px){
+   .top_div{
+       position:relative;
+       left:5rem;
+   }
+}
 /*--------------------------------------------------------animation--------------------------------------------------------*/
 #animation_div{
     border:.1rem solid black;
@@ -259,6 +265,12 @@ color:rgb(17, 2, 2);
         position:absolute;
         top:57rem;
         right:5rem;
+    }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    #animation_div{
+        position:absolute;
+        left:73rem;
     }
 }
 /* ------------------------------------------------------school & college------------------------------------------------------ */
@@ -405,6 +417,13 @@ color:rgb(17, 2, 2);
         left:3rem;
     }
 }
+@media only screen and (min-width:1025px) and (max-width:1440px){
+    #school_container{
+        position:relative;
+        left:6rem;
+        top:15rem;
+    }
+}
 /* -------------------------------------footer--------------------------- */
 .container{
 	max-width: 117.0rem;
@@ -529,6 +548,20 @@ ul{
         position:relative;
         left:-7rem;
     }
+}
+@media only screen and (min-width:1025px) and (max-width:1440px){
+   .footer{
+       position:absolute;
+       top:0rem;
+   }
+   #help{
+    position:relative;
+    left:-17.5rem;
+}
+#pictures{
+    position:relative;
+    left:-16rem;
+}
 }
 /* ---------------------------------------------------------------------------------- */
 /* ------------------             -------------------------galary------------------------------- */
