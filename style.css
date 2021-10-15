@@ -206,7 +206,7 @@ color:rgb(17, 2, 2);
 @media only screen and (min-width:1025px) and (max-width:1440px){
    .top_div{
        position:relative;
-       left:5rem;
+       left:3rem;
    }
 }
 /*--------------------------------------------------------animation--------------------------------------------------------*/
@@ -270,7 +270,7 @@ color:rgb(17, 2, 2);
 @media only screen and (min-width:1025px) and (max-width:1440px){
     #animation_div{
         position:absolute;
-        left:73rem;
+        left:70rem;
     }
 }
 /* ------------------------------------------------------school & college------------------------------------------------------ */
